@@ -1,55 +1,221 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Que tipo de jogador de RPG você é?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual é a sua abordagem ao planejar uma estratégia em um RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu passo horas estudando as estatísticas e calculando os melhores movimentos possíveis.",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Eu prefiro deixar a estratégia se desenvolver naturalmente, adaptando-me às circunstâncias conforme elas surgem.",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Eu me concentro em como meu personagem pode trazer mais diversão à história, mesmo que isso signifique tomar decisões menos eficazes.",
+          "alias": "E"
+        },
+        {
+          "id": 4,
+          "name": "Eu gosto de entrar de cabeça nas batalhas, confiando na minha habilidade e força para superar os desafios.",
+          "alias": "D"
+        },
+        {
+          "id": 5,
+          "name": "Eu tento manter o clima leve, fazendo piadas e animando o grupo enquanto planejamos nossa próxima jogada.",
+          "alias": "E"
+        }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Como você prefere interagir com os NPCs durante uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu me envolvo profundamente com a história do NPC, explorando suas motivações e personalidade.",
+          "alias": "B"
+        },
+        {
+          "id": 2,
+          "name": "Eu estou sempre pronto para sair e explorar o mundo do jogo, descobrindo novos lugares e tesouros.",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Eu gosto de enfrentar desafios de combate, testando minhas habilidades e táticas contra inimigos poderosos.",
+          "alias": "D"
+        }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você aborda a criação do seu personagem em um RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu me concentro em desenvolver uma história complexa e detalhada para o meu personagem, incluindo suas motivações e traços de personalidade únicos.",
+          "alias": "E"
+        },
+        {
+          "id": 2,
+          "name": "Eu priorizo habilidades e características que me permitam explorar o mundo do jogo e descobrir novas aventuras.",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Eu gosto de criar um personagem forte e habilidoso, pronto para enfrentar qualquer desafio que surja no caminho.",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Eu tento equilibrar minhas habilidades com a história do meu personagem, garantindo que ele se encaixe organicamente no mundo do jogo.",
+          "alias": "A"
+        }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Como você reage quando seu grupo enfrenta um desafio inesperado durante uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu tento manter o clima leve e animado, fazendo piadas e motivando o grupo para superar o desafio juntos.",
+          "alias": "E"
+        },
+        {
+          "id": 2,
+          "name": "Eu gosto de analisar a situação e pensar em estratégias criativas para superar o desafio.",
+          "alias": "C"
+        }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual é a sua atitude em relação às batalhas durante uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu lidero o grupo para a batalha, confiante em minha habilidade e determinação para alcançar a vitória.",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Eu prefiro observar a ação e encontrar maneiras únicas de contribuir para o sucesso do grupo.",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Como você se prepara para uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu passo tempo desenvolvendo a história e os detalhes do meu personagem, garantindo que ele se encaixe perfeitamente no mundo do jogo.",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Eu me concentro em garantir que todos estejam se divertindo, trazendo energia e humor para o grupo.",
+          "alias": "E"
+        },
+        {
+          "id": 3,
+          "name": "Eu pesquiso o mundo do jogo e penso em maneiras criativas de explorar e descobrir novas aventuras.",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Eu foco em entender as mecânicas do jogo e como posso usar minhas habilidades para contribuir para o sucesso do grupo.",
+          "alias": "B"
+        },
+        {
+          "id": 5,
+          "name": "Eu tento manter o clima leve e descontraído, incentivando a colaboração e o trabalho em equipe.",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O que você mais valoriza durante uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "A oportunidade de desenvolver uma história rica e complexa para o meu personagem.",
+          "alias": "B"
+        },
+        {
+          "id": 2,
+          "name": "A liberdade de explorar o mundo do jogo e descobrir novas aventuras.",
+          "alias": "A"
+        },
+        {
+          "id": 3,
+          "name": "A emoção e o desafio das batalhas e confrontos com inimigos.",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Como você reage quando as coisas não saem como planejado durante uma sessão de RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu tento manter o clima leve e animado, encontrando maneiras criativas de contornar os obstáculos.",
+          "alias": "E"
+        },
+        {
+          "id": 2,
+          "name": "Eu me concentro em encontrar soluções práticas e eficazes para os problemas que surgem.",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Eu confio em minhas habilidades e experiência para superar os desafios e levar o grupo à vitória.",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Eu uso minha inteligência e astúcia para encontrar maneiras de contornar os obstáculos e seguir em frente.",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "O que você considera mais importante em um RPG?",
+      "options": [
+        {
+          "id": 1,
+          "name": "A oportunidade de desenvolver uma história rica e complexa para o meu personagem.",
+          "alias": "B"
+        },
+        {
+          "id": 2,
+          "name": "A liberdade de explorar o mundo do jogo e descobrir novas aventuras.",
+          "alias": "A"
+        },
+        {
+          "id": 3,
+          "name": "A emoção e o desafio das batalhas e confrontos com inimigos.",
+          "alias": "C"
+        }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você é um(a) Explorador Curioso! 🔎<br><br>Como um Explorador Curioso, você valoriza a liberdade de explorar e descobrir novas aventuras no mundo do RPG. Você se sente mais animado ao desvendar segredos escondidos, investigar locais misteriosos e interagir com NPCs para aprender mais sobre o mundo do jogo. Sua curiosidade incessante o impulsiona a buscar novas experiências e desafios.",
+    "B": "Você é um(a) Estrategista Tático! 🎯<br><br>Como um Estrategista Tático, você é mestre na arte da preparação e da estratégia. Você passa horas estudando as estatísticas, planejando os movimentos futuros e antecipando os desafios que podem surgir durante a jornada. Sua abordagem calculista e planejada muitas vezes leva seu grupo à vitória, pois você está sempre um passo à frente dos adversários.",
+    "C": "Você é um(a) Combatente Destemido! 💥<br><br>Como um Combatente Destemido, você é movido pela emoção e pela adrenalina das batalhas. Você não recua diante de um desafio e enfrenta cada combate com coragem e determinação. Sua habilidade e força no campo de batalha inspiram seus companheiros de equipe e garantem que você seja uma presença formidável durante as confrontações.",
+    "D": "Você é um(a) Roleplayer Apaixonado! 📖<br><br>Como um Roleplayer Apaixonado, você mergulha profundamente na história e no papel do seu personagem. Para você, o RPG é mais do que apenas um jogo - é uma oportunidade de criar e viver uma história única em um mundo fictício. Você se dedica a desenvolver a personalidade, as motivações e os relacionamentos do seu personagem, tornando cada sessão de RPG uma experiência imersiva e emocionante.",
+    "E": "Você é um(a) Comediante de Plantão! 😄<br><br>Como um Comediante de Plantão, você traz leveza e diversão para o grupo durante as sessões de RPG. Você está sempre pronto para fazer uma piada, criar momentos hilários e animar o clima, mesmo nos momentos mais tensos. Sua energia contagiante ajuda a manter o moral alto e a promover a camaradagem entre os membros do grupo."
   }
 }
